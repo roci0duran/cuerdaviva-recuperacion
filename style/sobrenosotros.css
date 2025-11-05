@@ -1,0 +1,37 @@
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    color: #ff004f
+}
+
+.header-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header-container img {
+  width: 55%;
+  height: auto;
+  position:absolute;
+  display: block;
+  filter: brightness(50%); /* Oscurece la imagen para que el texto destaque */
+}
+
+.header-titulo {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 100%; /* Asegura que el texto ocupe todo el ancho */
+}
+
+
+.cardVM {
+    display: flex;         /* Habilita Flexbox */
+    justify-content: center; /* CENTRA horizontalmente los elementos hijos dentro del contenedor */
+    align-items: flex-start; /* Alinea los elementos al inicio de su eje cruzado (arriba) */
+    flex-wrap: wrap;       /* Permite que las tarjetas salten a la siguiente línea si no caben */
+    gap: 20px;             /* Espacio moderno entre las tarjetas */
+    margin-top: 20px;      /* Espacio por encima de las tarjetas */
+}
