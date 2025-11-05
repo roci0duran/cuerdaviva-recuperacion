@@ -1,3 +1,8 @@
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 .titulo {
     text-align: center;
     font-size: 50px;

@@ -1,4 +1,7 @@
- 
+ html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 
 .row {
 display: flex;

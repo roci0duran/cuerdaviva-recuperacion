@@ -1,100 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Cuerda Viva - Sobre Nosotros</title>
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Cuerda Viva - Sobre Nosotros</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+</head>
 
 <body>
 
-
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-black">
   <div class="container-fluid">
-<img src="./img/logo-dashboard.png" alt="logo cuerda viva" style="height: 90px; width: 90px";>
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="./img/logo-dashboard.png" alt="logo cuerda viva" style="height: 70px;">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active" href="sobrenosotros.html">Sobre Nosotros</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-
-<div class="card text-bg-dark">
-  <img src="./img/acoustic_guitar_guitar_brown_159803_1920x1080.jpg" class="card-img" alt="..."  style="filter: brightness(50%); width: 1705px; width: auto; height: 700px;">
-  <div class="card-img-overlay">
-  </div>
-</div>
-</div>
-
-<br>
-<br>
-  <center><h2>Nuestra visión y misión 🎸</h2></center>
-<br>
-
-<div class="cardVM row">  
-
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Visión</h5>
-    <p class="card-text">Ser la tienda de referencia para músicos y entusiastas de la guitarra y el bajo, reconocida por ofrecer una amplia gama de productos de alta calidad y un servicio al cliente excepcional que inspire y apoye el desarrollo musical en todos los niveles.
-</p>
+<!-- HERO (misma altura y estilo que el index) -->
+<div class="card text-bg-dark border-0">
+  <img src="./img/acoustic_guitar_guitar_brown_159803_1920x1080.jpg" class="card-img img-fluid" alt="guitarra fondo" style="filter: brightness(50%); height: 70vh; object-fit: cover; width: 100%;">
+  <div class="card-img-overlay d-flex justify-content-center align-items-center">
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Misión</h5>
-    <p class="card-text">Ofrecer a guitarristas y bajistas de todos los niveles una experiencia de compra completa, brindando acceso a cuerdas, accesorios, pedales y amplificadores de calidad a precios razonables. Nos comprometemos a proporcionar asesoramiento experto y a fomentar una comunidad musical vibrante.
-</p>
+<!-- VISIÓN Y MISIÓN -->
+<section class="container text-center my-5">
+  <h1 class="mb-4">Nuestra Visión y Misión 🎸</h1>
+  <div class="row g-4 justify-content-center">
+    
+    <div class="col-10 col-sm-6 col-md-5 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Visión</h5>
+          <p class="card-text">
+            Ser la tienda de referencia para músicos y entusiastas de la guitarra y el bajo, 
+            reconocida por ofrecer una amplia gama de productos de alta calidad y un servicio al cliente excepcional 
+            que inspire y apoye el desarrollo musical en todos los niveles.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-10 col-sm-6 col-md-5 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Misión</h5>
+          <p class="card-text">
+            Ofrecer a guitarristas y bajistas de todos los niveles una experiencia de compra completa, 
+            brindando acceso a cuerdas, accesorios, pedales y amplificadores de calidad a precios razonables. 
+            Nos comprometemos a proporcionar asesoramiento experto y a fomentar una comunidad musical vibrante.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-</div>
+</section>
 
-<br>
-<br>
-<center><h2>Nuestros objetivos 🎸</h2></center>
-<br>
+<!-- OBJETIVOS -->
+<section class="container text-center my-5">
+  <h1 class="mb-4">Nuestros Objetivos 🎸</h1>
+  <div class="row g-4 justify-content-center">
+    
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h6 class="fw-bold">Aumentar las ventas online</h6>
+          <p class="card-text">
+            Incrementar las ventas en la tienda online en un 25% durante el próximo año (de octubre de 2025 a octubre de 2026),
+            mediante la optimización de la página web y una campaña de marketing digital en redes sociales.
+          </p>
+        </div>
+      </div>
+    </div>
 
-<div class="cardObj row">
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h6>Aumentar las ventas online</h6>
-    <p class="card-text">Aumentar las ventas en la tienda online en un 25% durante el próximo año (de octubre de 2025 a octubre de 2026) mediante la optimización de la página web y una campaña de marketing digital en redes sociales.
-</p>
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h6 class="fw-bold">Incrementar la retención de clientes</h6>
+          <p class="card-text">
+            Lograr un aumento del 15% en la tasa de retención de clientes para finales de 2026,
+            mediante un programa de fidelización y mejora del servicio postventa.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h6 class="fw-bold">Expandir la oferta de productos</h6>
+          <p class="card-text">
+            Introducir al menos 5 nuevas marcas de pedales de efectos y amplificadores antes de marzo de 2026,
+            para atraer a un segmento de mercado más especializado y de mayor poder adquisitivo.
+          </p>
+        </div>
+      </div>
+    </div>
+
   </div>
-</div>
+</section>
 
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h6>Incrementar la retención de clientes</h6>
-    <p class="card-text">Lograr un aumento del 15% en la tasa de retención de clientes para finales del año fiscal (octubre de 2026), a través de un programa de fidelización y la mejora del servicio postventa.
-</p>
-  </div>
-</div>
-
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h6>Expandir la oferta de productos</h6>
-    <p class="card-text">Introducir al menos 5 nuevas marcas de pedales de efectos y amplificadores en el catálogo de productos antes de marzo de 2026, para atraer a un segmento de mercado más especializado y de mayor poder adquisitivo.
-</p>
-  </div>
-</div>
-</div>
-<br>
-<br>
-
-<footer>
-  <p>Cuerda Viva 2025 &copy</p>
+<!-- FOOTER -->
+<footer class="bg-black text-white text-center py-3 mt-5">
+  <p class="mb-0">Cuerda Viva 2025 &copy;</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
